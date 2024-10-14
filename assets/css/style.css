@@ -1,3 +1,14 @@
+/* asterisk wildcard to override browser defaults*/
+* {
+     padding:0;
+     margin: 0;
+     box-sizing: border-box;
+
+}
+header {
+    background-color: lightblue;
+}
+
 main {
     background-color: aqua;
 }
