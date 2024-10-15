@@ -11,7 +11,6 @@
 
 }
 /* general rules*/
-
 body {
     min-height: 100vh;
     display: flex;
@@ -20,6 +19,7 @@ body {
     color: #3a3a3a;
     font-family: "Lato", sans-serif;
 }
+
 /* Header  */
 header {
     background-color: #ffffff;
@@ -35,21 +35,27 @@ header a{
     text-decoration: none;
     color: #252525;
     letter-spacing: 2px;
+    
 
 }
-
+ul{
+    list-style-type: square;
+}
 
 h1 {
     font-family: "Oswald", sans-serif;
     text-transform: uppercase;
-
 }
 
+
+/*  main content*/
 main {
     background-color: aqua;
     /* make main element take al space to push footer down*/
     flex: 1 0 auto;
 }
+
+
 
 
 /*  Footer */        
