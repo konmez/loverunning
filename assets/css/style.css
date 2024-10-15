@@ -20,9 +20,21 @@ body {
     color: #3a3a3a;
     font-family: "Lato", sans-serif;
 }
-
+/* Header  */
 header {
-    background-color: lightblue;
+    background-color: #ffffff;
+    padding: 0rem;
+    position: fixed;
+    font-family: "Lato", sans-serif;
+    width: 100vh;
+    z-index: 99;
+    box-shadow: 0 2px 2px #3a3a3a;
+}
+
+
+h1 {
+    font-family: "Oswald", sans-serif;
+
 }
 
 main {
@@ -31,16 +43,10 @@ main {
     flex: 1 0 auto;
 }
 
-header {
-    background-color: lightblue;
-}
 
+/*  Footer */        
 footer {
 
     background-color: bisque;
 }
 
-h1 {
-    font-family: "Oswald", sans-serif;
-
-}
