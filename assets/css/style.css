@@ -96,8 +96,7 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-    background: url(../images/hero-image.webp) no-repeat center  center/cover;
-    border: solid 3px red;
+    background: url(../images/hero-image.webp) no-repeat center  center/cover;    
     position: relative;
 }
 
@@ -177,7 +176,14 @@ main{
 #menu a:hover{
     border-bottom: 1px solid #3a3a3a;
     background-color: aqua;
-}    
+}  
+
+/* Hero image */
+#cover-text {
+    width: 300px;
+    right: 50px;
+}
+  
 }
 /* end of Media query: tablet and larger(>=768px) */
 
@@ -189,10 +195,12 @@ main{
     border-bottom: 1px solid #3a3a3a;
     background-color: aqua;
 }    
-/* hero */
 
-#cover-text{
-    width: 300px;
-    right: 50px;
+}
 
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    #menu a:hover{
+        border-bottom: 1px solid #3a3a3a;
+    }
 }
