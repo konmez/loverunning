@@ -87,8 +87,15 @@ main {
     background-color: lightblue;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;    
-    margin-top: 47px;
-    
+    margin-top: 47px;    
+}
+
+/* hero section */
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url(../images/hero-image.webp) no-repeat center  center/cover;
+    border: solid 3px red;
 }
 
 /* Footer */
@@ -109,7 +116,7 @@ list-style-type: none;
      padding: 5%;
      color:  #3a3a3a;
 }
-
+/* end of footer */
 
 /* Media query: tablet and larger(>=768px) */
 @media screen and (min-width:768px){
@@ -144,15 +151,15 @@ nav{
 main{
      /* Push main content down to accommodate larger header */
     margin-top: 79px;
-    padding-top: 1rem;
+    padding-top: 0.8rem;
 }
 
 #menu a:hover{
     border-bottom: 1px solid #3a3a3a;
     background-color: aqua;
 }    
-/* end of Media query: tablet and larger(>=768px) */
 }
+/* end of Media query: tablet and larger(>=768px) */
 
 /* Media query: tablet and larger(>=768px) */
 @media screen and (min-width:992px){
