@@ -98,6 +98,7 @@ footer {
 
 /* Media query: tablet and larger(>=768px) */
 @media screen and (min-width:768px){
+    /* Header */
 nav{
     display: block;
     position: relative;
@@ -117,4 +118,34 @@ nav{
 .nav-toggled-label{
     display: none;
 }
+
+#logo{
+    font-size: 200%;
+    line-height: 75px;
+    margin: 0 0.5rem;
+}
+
+/* main content */
+main{
+     /* Push main content down to accommodate larger header */
+    margin-top: 79px;
+    padding-top: 1rem;
+}
+
+#menu a:hover{
+    border-bottom: 1px solid #3a3a3a;
+    background-color: aqua;
+}    
+/* end of Media query: tablet and larger(>=768px) */
+}
+
+/* Media query: tablet and larger(>=768px) */
+@media screen and (min-width:992px){
+    /* Hover */
+
+#menu a:hover{
+    border-bottom: 1px solid #3a3a3a;
+    background-color: aqua;
+}    
+
 }
