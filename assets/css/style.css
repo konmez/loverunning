@@ -261,7 +261,7 @@ main{
     text-align: end;
     align-self: flex-end;
   }
-
+}
 /* end of Media query: tablet and larger(>=768px) */
 
 /* Media query: tablet and larger(>=768px) */
@@ -291,7 +291,7 @@ main{
 }
 
 #benefits > div{
-    flex 1;
+    flex: 1;
 }
 #benefits-image{
     order: 0;;
