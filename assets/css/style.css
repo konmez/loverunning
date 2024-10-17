@@ -145,6 +145,22 @@ main {
     padding: 0 20px;
     }
 
+#circle-cover-bg {
+    height: 90vh;
+    width: 90vh;
+    margin: 20px 20px;
+    background: url(../images/reasons-image.webp) no-repeat center  center/cover;    
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+   }
+
+#benefits-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+
 /* Footer */
 footer {
     background-color: #ffffff;
