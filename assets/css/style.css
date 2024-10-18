@@ -144,9 +144,9 @@ main {
 }
 
 
-#benefits-mental , #benefits-phisical {
+#benefits-mental > div , #benefits-phisical > div {
     line-height: 20px;   
-    margin-bottom: 20px auto;
+    margin-bottom: 20px;
 }
 
 #benefits-mental p , #benefits-phisical p{
@@ -248,7 +248,7 @@ main {
 }  */
 
 .text-input {
-    color: #fafafa;
+    color: #454b1b;
     border: 1px solid #fafafa;
     border-radius: 2px;
     width: 100%;   
@@ -414,8 +414,7 @@ signup{
       /* Gallery */
 #photos {
     column-count: 3;
-    column-gap: 0;
-    border: 2px solid red;
+    column-gap: 0;    
 }
 }
 
